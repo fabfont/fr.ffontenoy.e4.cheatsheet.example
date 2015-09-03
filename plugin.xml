@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="fr.ffontenoy.e4.cheatsheet.example"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/fr.ffontenoy.e4.cheatsheet.example/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="fr.ffontenoy.e4.cheatsheet.example">
+         </property>
+      </product>
+   </extension>
+   <!--extension
+         point="fr.ffontenoy.e4.help.helpExtensionPoint">
+      <HelpExtensionPoint
+            htmlFile="help/sfum.htm"
+            tocFile="help/toc.xml">
+      </HelpExtensionPoint>
+   </extension-->
+   <extension
+         point="fr.ffontenoy.e4.cheatsheet.cheatsheetExtensionPoint">
+      <CheatsheetExtensionPoint
+            cheatsheetFile="cheatsheets/cheatsheets.xml">
+      </CheatsheetExtensionPoint>
+   </extension>
+   <extension
+         id="product1"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="fr.ffontenoy.e4.cheatsheet.example">
+      </product>
+   </extension>
+
+</plugin>

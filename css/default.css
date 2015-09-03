@@ -1,0 +1,18 @@
+.CheatsheetTocTitle {
+	color: blue;
+	font-size:12px;
+	background-color:white;
+}
+
+.CheatsheetTitle {
+	color: blue;
+	font-size:18px;
+	background-color:white;
+}
+
+.CheatsheetDescription {
+	color: black;
+	font-size:12px;
+	font-style:italic;
+	background-color:white;
+}

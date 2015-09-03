@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_p19S4PDVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_p1958PDVEeS-EZdeBuTBIQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_p19S4fDVEeS-EZdeBuTBIQ" label="fr.ffontenoy.e4.cheatsheet.example" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_p1_IEPDVEeS-EZdeBuTBIQ" elementId="fr.ffontenoy.example.perspectiveStackId">
+      <children xsi:type="advanced:Perspective" xmi:id="_p1_IEfDVEeS-EZdeBuTBIQ">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_p1_IEvDVEeS-EZdeBuTBIQ">
+          <children xsi:type="basic:PartStack" xmi:id="_p1_IE_DVEeS-EZdeBuTBIQ">
+            <children xsi:type="basic:Part" xmi:id="_p1_vIPDVEeS-EZdeBuTBIQ" contributionURI="bundleclass://fr.ffontenoy.e4.cheatsheet.example/fr.ffontenoy.e4.cheatsheet.example.parts.SamplePart" label="Sample Part"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_p1-hBvDVEeS-EZdeBuTBIQ" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_p1-hB_DVEeS-EZdeBuTBIQ" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_p1-hCPDVEeS-EZdeBuTBIQ" label="Open" iconURI="platform:/plugin/fr.ffontenoy.e4.cheatsheet.example/icons/sample.png" command="_p1959_DVEeS-EZdeBuTBIQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_p1-hCfDVEeS-EZdeBuTBIQ" label="Save" iconURI="platform:/plugin/fr.ffontenoy.e4.cheatsheet.example/icons/save_edit.png" command="_p1-hAPDVEeS-EZdeBuTBIQ"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_p1-hCvDVEeS-EZdeBuTBIQ" label="Quit" command="_p1958_DVEeS-EZdeBuTBIQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_p1-hC_DVEeS-EZdeBuTBIQ" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_p1-hDPDVEeS-EZdeBuTBIQ" label="About" command="_p1-hA_DVEeS-EZdeBuTBIQ"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_p1_vIfDVEeS-EZdeBuTBIQ">
+      <children xsi:type="menu:ToolBar" xmi:id="_p1_vIvDVEeS-EZdeBuTBIQ" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_p1_vI_DVEeS-EZdeBuTBIQ" iconURI="platform:/plugin/fr.ffontenoy.e4.cheatsheet.example/icons/sample.png" command="_p1959_DVEeS-EZdeBuTBIQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_p1_vJPDVEeS-EZdeBuTBIQ" iconURI="platform:/plugin/fr.ffontenoy.e4.cheatsheet.example/icons/save_edit.png" command="_p1-hAPDVEeS-EZdeBuTBIQ"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_p1959PDVEeS-EZdeBuTBIQ" elementId="fr.ffontenoy.example.handler.quitCommand" contributionURI="bundleclass://fr.ffontenoy.e4.cheatsheet.example/fr.ffontenoy.e4.cheatsheet.example.handlers.QuitHandler" command="_p1958_DVEeS-EZdeBuTBIQ"/>
+  <handlers xmi:id="_p195-PDVEeS-EZdeBuTBIQ" elementId="fr.ffontenoy.example.handler.openCommand" contributionURI="bundleclass://fr.ffontenoy.e4.cheatsheet.example/fr.ffontenoy.e4.cheatsheet.example.handlers.OpenHandler" command="_p1959_DVEeS-EZdeBuTBIQ"/>
+  <handlers xmi:id="_p1-hAfDVEeS-EZdeBuTBIQ" elementId="fr.ffontenoy.example.handler.saveCommand" contributionURI="bundleclass://fr.ffontenoy.e4.cheatsheet.example/fr.ffontenoy.e4.cheatsheet.example.handlers.SaveHandler" command="_p1-hAPDVEeS-EZdeBuTBIQ"/>
+  <handlers xmi:id="_p1-hBPDVEeS-EZdeBuTBIQ" elementId="fr.ffontenoy.example.handler.aboutCommand" contributionURI="bundleclass://fr.ffontenoy.e4.cheatsheet.example/fr.ffontenoy.e4.cheatsheet.example.handlers.AboutHandler" command="_p1-hA_DVEeS-EZdeBuTBIQ"/>
+  <bindingTables xmi:id="_p1959fDVEeS-EZdeBuTBIQ" bindingContext="_p1958PDVEeS-EZdeBuTBIQ">
+    <bindings xmi:id="_p1959vDVEeS-EZdeBuTBIQ" keySequence="M1+Q" command="_p1958_DVEeS-EZdeBuTBIQ"/>
+    <bindings xmi:id="_p195-fDVEeS-EZdeBuTBIQ" keySequence="M1+O" command="_p1959_DVEeS-EZdeBuTBIQ"/>
+    <bindings xmi:id="_p1-hAvDVEeS-EZdeBuTBIQ" keySequence="M1+S" command="_p1-hAPDVEeS-EZdeBuTBIQ"/>
+    <bindings xmi:id="_p1-hBfDVEeS-EZdeBuTBIQ" keySequence="M1+A" command="_p1-hA_DVEeS-EZdeBuTBIQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_p1958PDVEeS-EZdeBuTBIQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_p1958fDVEeS-EZdeBuTBIQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_p1958vDVEeS-EZdeBuTBIQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_p1958_DVEeS-EZdeBuTBIQ" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_p1959_DVEeS-EZdeBuTBIQ" elementId="fr.ffontenoy.example.open" commandName="openCommand"/>
+  <commands xmi:id="_p1-hAPDVEeS-EZdeBuTBIQ" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_p1-hA_DVEeS-EZdeBuTBIQ" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_p19S4vDVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_p19S4_DVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_p19S5PDVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_p19S5fDVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_p19S5vDVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_p19S5_DVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_p19S6PDVEeS-EZdeBuTBIQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

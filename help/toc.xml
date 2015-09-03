@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<toc label="Street Factory">
+    <topic label="1 Introduction" href="sfum.htm#_Toc417905811">
+        <topic label="1.1 Project Context" href="sfum.htm#_Toc417905812"/>
+        <topic label="1.2 Purpose of the document" href="sfum.htm#_Toc292118558"/>
+        <topic label="1.3 Document overview" href="sfum.htm#_Toc417905814"/>
+        <topic label="1.4 Terms and acronyms" href="sfum.htm#_Toc417905815"/>
+        <topic label="1.5 Applicable documents" href="sfum.htm#_Toc287024846"/>
+        <topic label="1.6 Reference documents" href="sfum.htm#_Toc417905817"/>
+    </topic>
+    <topic label="2 General presentation" href="sfum.htm#_Toc417905818">
+		<topic label="2.1 Application login" href="sfum.htm#_Toc417905819"/>
+        <topic label="2.2 Client Interface" href="sfum.htm#_Toc417905820"/>
+        <topic label="2.3 Edition mechanisms" href="sfum.htm#_Toc412542244"/>
+    </topic>
+    <topic label="3 Perspectives in details" href="sfum.htm#_Toc417905822">
+        <topic label="3.1 Projects perspective" href="sfum.htm#_Toc417905823"/>
+        <topic label="3.2 Map perspective" href="sfum.htm#_Toc417905824"/>
+        <topic label="3.3 Workflows and Activities perspective" href="sfum.htm#_Toc417905825"/>
+        <topic label="3.4 Running Processes perspective" href="sfum.htm#_Toc417905826"/>
+        <topic label="3.5 Platforms perspective" href="sfum.htm#_Toc417905827"/>
+        <topic label="3.6 Logs perspective" href="sfum.htm#_Toc417905828"/>
+        <topic label="3.7 Projections and Datum perspective" href="sfum.htm#_Toc417905829"/>
+        <topic label="3.8 Blocks perspective" href="sfum.htm#_Toc417905830"/>
+        <topic label="3.9 Rules perspective" href="sfum.htm#_Toc417905831"/>
+        <topic label="3.10 Drivers perspective" href="sfum.htm#_Toc417905832"/>
+        <topic label="3.11 Monitoring perspective" href="sfum.htm#_Toc417905833"/>
+        <topic label="3.12 Terminal perspective" href="sfum.htm#_Toc417905834"/>
+        <topic label="3.13 Image Viewer perspective" href="sfum.htm#_Toc417905835"/>
+    </topic>
+    <topic label="4 External Tools" href="sfum.htm#_Toc412542260"/>
+    <topic label="5 Others features" href="sfum.htm#_Toc417905837">
+        <topic label="5.1 Users management" href="sfum.htm#_Toc417905838"/>
+        <topic label="5.2 User's Preferences" href="sfum.htm#_Toc417905839"/>
+        <topic label="5.3 About window" href="sfum.htm#_Toc417905840"/>
+        <topic label="5.4 Online Help" href="sfum.htm#_Toc417905841"/>
+    </topic>
+</toc>

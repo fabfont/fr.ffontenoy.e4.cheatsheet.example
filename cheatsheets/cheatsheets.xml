@@ -1,0 +1,24 @@
+<cheatsheets>
+	<cheatsheet title="my first cheatsheet" description="This is my first cheatsheet">
+		<item title="Item1" description="This is my item 1">
+			<command id="fr.ffontenoy.e4.cheatsheet.example.open" required="true" />
+		</item>
+		<item title="Item2" description="This is my item 2">
+			<command id="fr.ffontenoy.e4.cheatsheet.example.open" required="true" />
+		</item>
+		<item title="Item3" description="This is my item 3">
+			<command id="fr.ffontenoy.e4.cheatsheet.example.open" required="true" />
+		</item>
+	</cheatsheet>
+	<cheatsheet title="my second cheatsheet" description="This is my second cheatsheet">
+		<item title="Item1" description="This is my item 1">
+			<command id="org.eclipse.ui.help.aboutAction" required="true" />
+		</item>
+		<item title="Item2" description="This is my item 2">
+			<command id="org.eclipse.ui.help.aboutAction" required="true" />
+		</item>
+		<item title="Item3" description="This is my item 3">
+			<command id="org.eclipse.ui.help.aboutAction" required="true" />
+		</item>
+	</cheatsheet>
+</cheatsheets>
