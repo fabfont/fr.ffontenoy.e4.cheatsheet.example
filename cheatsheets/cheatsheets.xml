@@ -1,6 +1,9 @@
 <cheatsheets>
 	<cheatsheet title="my first cheatsheet" description="This is my first cheatsheet">
 		<item title="Item1" description="This is my item 1">
+			<description>
+				<![CDATA[<b>This is my item 1</b><br/><br/><img src="bundle://fr.ffontenoy.e4.cheatsheet.example/icons/builtoneclipse.jpg" alt="Built on eclipse" style="width:150px;height:100px;"/>]]>
+			</description>
 			<command id="fr.ffontenoy.e4.cheatsheet.example.open" required="true" />
 		</item>
 		<item title="Item2" description="This is my item 2">
