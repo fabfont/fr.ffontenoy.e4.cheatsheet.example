@@ -1,12 +1,12 @@
 <cheatsheets>
 	<cheatsheet title="mon premier tuto" description="Ceci est mon premier tuto">
-		<item title="Item1" description="This is my item 1">
+		<item title="Item1" height="250">
 			<description>
 				<![CDATA[<b>This is my item 1</b><br/><br/><img src="bundle://fr.ffontenoy.e4.cheatsheet.example/icons/builtoneclipse.jpg" alt="Built on eclipse" style="width:150px;height:100px;"/>]]>
 			</description>
 			<command id="fr.ffontenoy.e4.cheatsheet.example.open" required="true" />
 		</item>
-		<item title="Item2">
+		<item title="Item2" height="100">
 			<description>This is my item 2</description>
 		</item>
 		<item title="Item3" description="This is my item 3">
