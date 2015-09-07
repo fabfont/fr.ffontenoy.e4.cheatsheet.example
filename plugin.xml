@@ -27,7 +27,8 @@
    <extension
          point="fr.ffontenoy.e4.cheatsheet.cheatsheetExtensionPoint">
       <CheatsheetExtensionPoint
-            cheatsheetFile="cheatsheets/cheatsheets.xml">
+            cheatsheetFile="cheatsheets/cheatsheets.xml"
+            shortcut="M1+M2+T">
       </CheatsheetExtensionPoint>
    </extension>
    <extension
