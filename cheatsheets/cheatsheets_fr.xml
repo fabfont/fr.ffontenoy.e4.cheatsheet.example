@@ -1,5 +1,5 @@
 <cheatsheets>
-	<cheatsheet title="my first cheatsheet" description="This is my first cheatsheet">
+	<cheatsheet title="mon premier tuto" description="Ceci est mon premier tuto">
 		<item title="Item1" description="This is my item 1">
 			<description>
 				<![CDATA[<b>This is my item 1</b><br/><br/><img src="bundle://fr.ffontenoy.e4.cheatsheet.example/icons/builtoneclipse.jpg" alt="Built on eclipse" style="width:150px;height:100px;"/>]]>
